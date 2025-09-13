@@ -5,7 +5,7 @@ import { addHistory, removeHistory } from '../../redux/actions/calculateAction';
 
 
 const Calculator = () => {
-    const [historyView, setHistoryView] = useState(false)
+    const [historyView, setHistoryView] = useState(false) 
     const [value, setValue] = useState("");
     const dispatch = useDispatch();
     const calHistory = useSelector(state => state.Calculator.CalculateHistory);
